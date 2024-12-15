@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+}
+
+.manu{
+    background-color: rgb(166, 85, 241);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/39/C_Hello_World_Program.png");
+    background-position: center;
+    background-size: cover;
+    height: 783px;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: wheat;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    bottom: 0;
+}
